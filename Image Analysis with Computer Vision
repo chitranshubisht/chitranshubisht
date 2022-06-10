@@ -1,1 +1,38 @@
 
+Image Analysis with the Computer Vision Service
+A robot holding a picture
+
+Computer Vision is a branch of artificial intelligence (AI) that explores the development of AI systems that can "see" the world, either in real-time through a camera or by analyzing images and video. This is made possible by the fact that digital images are essentially just arrays of numeric pixel values, and we can use those pixel values as features to train machine learning models that can classify images, detect discrete objects in an image, and even generate text-based summaries of photographs.
+
+Use the Computer Vision Cognitive Service
+Microsoft Azure includes a number of cognitive services that encapsulate common AI functions, including some that can help you build computer vision solutions.
+
+The Computer Vision cognitive service provides an obvious starting point for our exploration of computer vision in Azure. It uses pre-trained machine learning models to analyze images and extract information about them.
+
+For example, suppose Northwind Traders has decided to implement a "smart store", in which AI services monitor the store to identify customers requiring assistance, and direct employees to help them. By using the Computer Vision service, images taken by cameras throughout the store can be analyzed to provide meaningful descriptions of what they depict.
+
+Create a Cognitive Services Resource
+Let's start by creating a Cognitive Services resource in your Azure subscription:
+
+In another browser tab, open the Azure portal at https://portal.azure.com, signing in with your Microsoft account.
+Click the ＋Create a resource button, search for Cognitive Services, and create a Cognitive Services resource with the following settings:
+Subscription: Your Azure subscription.
+Resource group: Select or create a resource group with a unique name.
+Region: Choose any available region:
+Name: Enter a unique name.
+Pricing tier: S0
+I confirm I have read and understood the notices: Selected.
+Wait for deployment to complete. Then go to your cognitive services resource, and on the Overview page, click the link to manage the keys for the service. You will need the endpoint and keys to connect to your cognitive services resource from client applications.
+Get the Key and Endpoint for your Cognitive Services resource
+To use your cognitive services resource, client applications need its endpoint and authentication key:
+
+In the Azure portal, on the Keys and Endpoint page for your cognitive service resource, copy the Key1 for your resource and paste it in the code below, replacing YOUR_COG_KEY.
+Copy the endpoint for your resource and and paste it in the code below, replacing YOUR_COG_ENDPOINT.
+Run the code below by selecting the cell and then clicking the Run cell (&#9655) button to the left of the cell.
+cog_key = 'YOUR_COG_KEY'
+cog_endpoint = 'YOUR_COG_ENDPOINT'
+
+print('Ready to use cognitive services at {} using key {}'.format(cog_endpoint, cog_key))
+Now that you've set up the key and endpoint, you can use the computer vision service to analyze an image.
+
+Run the following cell to get a description for an image in the /data/vision/store_cam1.jpg file.
