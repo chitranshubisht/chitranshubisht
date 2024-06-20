@@ -13,10 +13,10 @@ Hi there! 🚀   I'm Chitranshu Bisht, a Full Stack Software Developer fueled by
 
 I'm eager to connect and discuss software design, development, testing, deployment, or any other tech-related topics you might have in mind. Feel free to reach out to me:
 
-* **Email:** chitranshubisht31@gmail.com
-* **LinkedIn:** https://www.linkedin.com/in/dev-chitranshu-bisht/
-* **Social Media:** @chitranshuuu (Instagram)
+* **📧 Email:** chitranshubisht31@gmail.com
+* **🖇️ LinkedIn:** https://www.linkedin.com/in/dev-chitranshu-bisht/
+* **💬 Social Media:** @chitranshuuu (Instagram)
 
 **Stay Updated:**
 
-**I'm excited to collaborate and contribute to the world of technology!**
+**🚀I'm excited to collaborate and contribute to the world of technology!🚀**
