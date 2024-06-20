@@ -1,6 +1,6 @@
 # About Me
 
-Hi there!   I'm Chitranshu Bisht, a Full Stack Software Developer fueled by a passion for technology and a drive to solve problems through innovative coding solutions. 
+Hi there! 🚀   I'm Chitranshu Bisht, a Full Stack Software Developer fueled by a passion for technology and a drive to solve problems through innovative coding solutions. 
 
 **My Skills and Interests:**
 
